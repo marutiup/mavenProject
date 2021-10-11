@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNg" verbose="2">
+<test name="TestCases">
+
+<groups>
+<run>
+<include name="driver"></include>
+<include name="Apple"></include>
+<include name="Vivo"></include>
+
+</run>
+
+</groups>
+
+<classes>
+
+<class name="com.sriram.Maven_demo.GroupingExample"></class>
+
+
+</classes>
+</test>
+</suite>
+
+
+
+<!-- <class name="com.sriram.Maven_demo.DriveACar"></class>
+<class name="com.sriram.Maven_demo.SkipATestCase"></class>
+<class name="com.sriram.Maven_demo.SuiteExampleBefore"></class>
+ -->

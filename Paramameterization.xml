@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Paramameterization">
+<test name ="test01">
+<parameter name="sri" value="hai"></parameter>
+<parameter name="ram" value="aadish"></parameter>
+<classes>
+<class name="com.sriram.Maven_demo.ParamameterizationExample"></class>
+
+</classes>
+
+
+</test>
+</suite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNg]" verbose="2">
+  <test name="TestCases(failed)">
+    <groups>
+      <run>
+        <include name="Apple"/>
+        <include name="Vivo"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.sriram.Maven_demo.GroupingExample">
+        <methods>
+          <include name="vivoY13"/>
+          <include name="apple13Pro"/>
+          <include name="apple10s"/>
+          <include name="apple6s"/>
+          <include name="vivoZ1Pro"/>
+        </methods>
+      </class> <!-- com.sriram.Maven_demo.GroupingExample -->
+    </classes>
+  </test> <!-- TestCases(failed) -->
+</suite> <!-- Failed suite [TestNg] -->
